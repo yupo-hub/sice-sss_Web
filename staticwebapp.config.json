@@ -3,6 +3,22 @@
     {
       "route": "/",
       "rewrite": "/sice-sss/index.html"
+    },
+    {
+      "route": "/sice-sss/index.html",
+      "rewrite": "/sice-sss/index.html"
+    },
+    {
+      "route": "/sice-sss/news.html",
+      "rewrite": "/sice-sss/news.html"
+    },
+    {
+      "route": "/sice-sss/report.html",
+      "rewrite": "/sice-sss/report.html"
+    },
+    {
+      "route": "/sice-sss/schedule.html",
+      "rewrite": "/sice-sss/schedule.html"
     }
   ]
 }
