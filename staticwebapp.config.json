@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "route": "/sice-sss",
+      "rewrite": "/sice-sss/index.html"
+    },
+    {
+      "route": "/sice-sss/*",
+      "rewrite": "/sice-sss/:splat"
+    },
+    {
+      "route": "/",
+      "rewrite": "/sice-sss/index.html"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/sice-sss/index.html"
+  }
+}
