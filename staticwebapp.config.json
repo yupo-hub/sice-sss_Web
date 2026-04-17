@@ -2,23 +2,23 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/sice-sss/index.html"
+      "rewrite": "/index.html"
     },
     {
-      "route": "/sice-sss/index.html",
-      "rewrite": "/sice-sss/index.html"
+      "route": "/index.html",
+      "rewrite": "/index.html"
     },
     {
-      "route": "/sice-sss/news.html",
-      "rewrite": "/sice-sss/news.html"
+      "route": "/news.html",
+      "rewrite": "/news.html"
     },
     {
-      "route": "/sice-sss/report.html",
-      "rewrite": "/sice-sss/report.html"
+      "route": "/report.html",
+      "rewrite": "/report.html"
     },
     {
-      "route": "/sice-sss/schedule.html",
-      "rewrite": "/sice-sss/schedule.html"
+      "route": "/schedule.html",
+      "rewrite": "/schedule.html"
     }
   ]
 }
