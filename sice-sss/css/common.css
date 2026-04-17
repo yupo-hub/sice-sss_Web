@@ -1,0 +1,340 @@
+﻿@CHARSET "utf-8";
+
+/* --------------------------------------------------------------------------------
+	Created by Ryutaro Miyashita at 2009/11/6
+	Customized by shima at 2010/4/27
+	------------------------------------------------------------------------------- */
+
+body {
+	font: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align: center;
+	background-color: #ffffff;
+	background-image: url(../images/back.gif);
+	background-position: left;
+	background-repeat: repeat;
+}
+
+/* --------------------------------------------------------------------------------
+	Common
+	-------------------------------------------------------------------------------- */
+#contents {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+.content .item {
+	padding: 6px 12px;
+	border: 1px solid #EEE;
+	background: #FFF;
+	margin-bottom: 8px;
+}
+.content li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+
+#main_menu {
+	width: 800px;
+	margin: 0 auto;
+}
+#footer {
+	width: 800px;
+	margin: 0 auto;
+}
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+	background-color: rgba(255,255,255,0.6);
+	background-image: url(../images/sidebar.gif);
+	background-repeat: repeat;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------------
+	Header
+	-------------------------------------------------------------------------------- */
+#header {
+	height: 150px;
+	width: 900px;
+	margin: 0 auto;
+	background-image: url(../images/header.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#header h1 {
+	display: block;
+	text-align: right;
+	padding: 115px 22px 0 0;
+	color: #FFFFFF;
+}
+
+/* --------------------------------------------------------------------------------
+	Menu
+	-------------------------------------------------------------------------------- */
+#main_menu {
+	clear: both;
+}
+#main_menu h2 {
+	display: none;
+}
+#main_menu ul {}
+#main_menu ul li {
+	display: table-cell;
+}
+#main_menu ul li a {
+	height: 35px;
+	overflow: hidden;
+	border: none;
+	display: block;
+	text-indent: -9999px;
+	background-image: url(../images/menu_button.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+/* Home */
+#main_menu ul li #mmenu_home {
+	width: 100px;
+	background-position: 0 0;
+}
+#main_menu ul li #mmenu_home:hover {
+	width: 100px;
+	border: none;
+	background-position: 0 -35px;
+}
+
+
+/* News */
+#main_menu ul li #mmenu_news {
+	width: 100px;
+	background-position: -100px 0;
+}
+#main_menu ul li #mmenu_news:hover {
+	width: 100px;
+	border: none;
+	background-position: -100px -35px;
+}
+
+/* Report */
+#main_menu ul li #mmenu_report {
+    width: 100px;
+    background-position: -200px 0;
+}
+#main_menu ul li #mmenu_report:hover {
+    width: 100px;
+    border: none;
+    background-position: -200px -35px;
+}
+
+
+/* Schedule */
+#main_menu ul li #mmenu_schedule {
+    width: 100px;
+    background-position: -300px 0;
+}
+#main_menu ul li #mmenu_schedule:hover {
+    width: 100px;
+    border: none;
+    background-position: -300px -35px;
+}
+
+/* Foundation */
+#main_menu ul li #mmenu_found {
+    width: 100px;
+    background-position: -400px 0;
+}
+#main_menu ul li #mmenu_found:hover {
+    width: 100px;
+    border: none;
+    background-position: -400px -35px;
+}
+
+/* Committee */
+#main_menu ul li #mmenu_committee  {
+	width: 100px;
+	background-position: -500px 0;
+}
+#main_menu ul li #mmenu_committee:hover {
+	width: 100px;
+	border: none;
+	background-position: -500px -35px;
+}
+
+/* Resarch Field*/
+#main_menu ul li #mmenu_resarch {
+    width: 100px;
+    background-position: -600px 0;
+}
+#main_menu ul li #mmenu_resarch:hover {
+    width: 100px;
+    border: none;
+    background-position: -600px -35px;
+}
+
+/* Links */
+#main_menu ul li #mmenu_links {
+    width: 100px;
+    background-position: -700px 0;
+}
+#main_menu ul li #mmenu_links:hover {
+    width: 100px;
+    border: none;
+    background-position: -700px -35px;
+}
+
+/* --------------------------------------------------------------------------------
+	Bread crumbs list
+	-------------------------------------------------------------------------------- */
+#topic_path {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	z-index: 2;
+	background-color: rgb(255,255,255);
+	background-image: url(../images/sidebar.gif);
+	background-repeat: repeat;
+}
+#topic_path ul {
+}
+#topic_path ul li {
+	padding: 5px 0px 5px 10px;
+	display: table-cell;
+}
+#topic_path ul li a {
+	padding: 0 20px 0 0;
+	background-image: url(../images/arrow.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+/* --------------------------------------------------------------------------------
+	Main
+	-------------------------------------------------------------------------------- */
+#main {
+	text-align: left;
+	padding: 12px;
+	display: -moz-inline-block;
+	display: inline-block;
+	width: 510px;
+	vertical-align: top;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: rgb(136,133,190) 0px 0px 10px;
+	-moz-box-shadow: rgb(136,133,190) 0px 0px 10px;
+	-webkit-box-shadow: rgb(136,133,190) 0px 0px 10px;
+
+
+	/display: inline;
+	/zoom: 1;
+}
+
+#main #sub_box h2 {
+	clear: both;
+	width: 485px;
+	padding: 4px 10px;
+	margin: 5px auto 5px 0;
+	border: 1px solid #e0e0e0;
+	font-size: 122%;
+	font-weight: bold;
+	text-align: left;
+	background-color: #fefefe;
+	background-image: url(../images/boxbar.gif);
+	background-position: top center;
+	background-repeat: repeat-x;
+}
+#main #sub_box h2 span._left_border {
+	padding: 2px 2px 2px 6px;
+	border-left: 6px solid #8885be;
+	display: block;
+}
+
+#main h3 {
+	font-weight: bold;
+    margin-bottom: 8px;
+    border-bottom: #ccc 1px solid;
+}
+
+#main p {
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------------
+	SideBar
+	-------------------------------------------------------------------------------- */
+#sidebar {
+	text-align: left;
+	margin-left: 6px;
+	padding: 12px;
+	display: -moz-inline-block;
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: rgb(136,133,190) 0px 0px 10px;
+	-moz-box-shadow: rgb(136,133,190) 0px 0px 10px;
+	-webkit-box-shadow: rgb(136,133,190) 0px 0px 10px;
+	/display: inline;
+	/zoom: 1;
+}
+
+#sidebar h3 {
+	font-weight: bold;
+    margin-bottom: 8px;
+    border-bottom: #ccc 1px solid;
+}
+
+#sidebar h4.news_date {
+	font-weight: bold;
+}
+
+#sidebar p {
+	margin-top: 3px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+/* --------------------------------------------------------------------------------
+	Footer
+	-------------------------------------------------------------------------------- */
+#footer {
+	clear: both;
+	height: 45px;
+	background-image: url(../images/footer.gif);
+	background-repeat: no-repeat;
+}
+#footer h4 {
+    height: 20px;
+    padding: 10px 12px 0 0;
+    text-align: right;
+}
+
+/* --------------------------------------------------------------------------------
+	Links
+	-------------------------------------------------------------------------------- */
+a:link {
+	color: #0000bb;
+	text-decoration: none;
+}
+a:visited {
+	color: #aa00bb;
+	text-decoration: none;
+}
+a:hover {
+	color: #2aabd0;
+	text-decoration: none;
+}
+a:active {
+	color: #2aabd0;
+	text-decoration: none;
+}
